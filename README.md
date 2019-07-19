@@ -1,2 +1,13 @@
 # partition_tools
-自动扩展最后一个分区
+linux partition tools
+auto extend latest partition from block device or file disk
+usage:
+qemu-img resize file.disk 10G
+./extend_system_disk.sh file.disk
+
+
+Applicable environment
+OS:Linux
+disk label:msdos,GPT
+partition file system:extX,xfs,ntfs
+
